@@ -102,13 +102,13 @@ Carousel.prototype = {
 
     switch (code) {
       case this.CODE_SPACE:
-        this.pausePlayHandler();
+        this.pausePlay();
         break;
       case this.CODE_ARROW_LEFT:
-        this.prevHandler();
+        this.prev();
         break;
       case this.CODE_ARROW_RIGHT:
-        this.nextHandler();
+        this.next();
         break;
     }
   },
