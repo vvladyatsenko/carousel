@@ -1,4 +1,3 @@
-/* eslint-disable prefer-rest-params */
 import Carousel from './carousel.js';
 
 export default class SwipeCarousel extends Carousel {
